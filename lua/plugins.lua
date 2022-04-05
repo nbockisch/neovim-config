@@ -36,6 +36,10 @@ local PKGS = {
   -- Terminal
   'akinsho/toggleterm.nvim';
 
+  -- Bar
+  'kyazdani42/nvim-web-devicons';
+  'nvim-lualine/lualine.nvim';
+
   -- Quality of life
   'jiangmiao/auto-pairs';
   'tpope/vim-commentary';
@@ -83,3 +87,4 @@ require('plugin-confs.nvim-cmp')
 require('plugin-confs.luasnip')
 require('plugin-confs.nvim-treesitter')
 require('plugin-confs.toggleterm')
+require('plugin-confs.lualine')
