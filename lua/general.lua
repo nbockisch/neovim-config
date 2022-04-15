@@ -35,3 +35,6 @@ vim.opt.incsearch = true -- show where pattern matches while typing
 
 -- Tab complete settings
 vim.opt.wildmode = "longest:full,full"
+
+-- Copy-paste settings
+vim.opt.clipboard = vim.opt.clipboard + 'unnamedplus' -- Use system clipboard
