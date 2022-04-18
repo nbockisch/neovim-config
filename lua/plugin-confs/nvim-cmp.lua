@@ -13,7 +13,7 @@ if not status_ok then
 end
 
 -- Get nice icons in completion menu
-lspkind.init()
+lspkind.setup()
 
 cmp.setup {
   mapping = {

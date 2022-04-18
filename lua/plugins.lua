@@ -28,7 +28,7 @@ local PKGS = {
   'saadparwaiz1/cmp_luasnip';
 
   -- Misc lsp/cmp related plugins
-  'onsails/lspkind-nvim';
+  'onsails/lspkind.nvim';
 
   -- Highlighting
   {'nvim-treesitter/nvim-treesitter', run = TSUpdate};
