@@ -13,7 +13,7 @@ if not status_ok then
 end
 
 -- Get nice icons in completion menu
-lspkind.setup()
+lspkind.init()
 
 cmp.setup {
   mapping = {
@@ -46,10 +46,10 @@ cmp.setup {
   },
 
   sources = {
+    { name = 'luasnip' },
     { name = 'nvim_lua' },
     { name = 'nvim_lsp' },
     { name = 'path' },
-    { name = 'luasnip' },
     { name = 'cmdline' },
     { name = 'buffer', keyword_length = 5 },
   },
