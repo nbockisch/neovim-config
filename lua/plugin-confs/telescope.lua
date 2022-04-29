@@ -18,12 +18,12 @@ bind('n', '<leader>lt', ':Telescope treesitter<CR>', {noremap = true})
 bind('n', 'gr', 
   '<cmd>lua require(\'telescope.builtin\').lsp_references()<CR>', 
   {noremap = true})
-bind('n', '<leader>ca', 
-  '<cmd>lua require(\'telescope.builtin\').lsp_code_actions()<CR>', 
-  {noremap = true})
-bind('n', '<leader>cra', 
-  '<cmd>lua require(\'telescope.builtin\').lsp_range_code_actions()<CR>', 
-  {noremap = true})
+-- bind('n', '<leader>ca', 
+--   '<cmd>lua require(\'telescope.builtin\').lsp_code_actions()<CR>', 
+--   {noremap = true})
+-- bind('n', '<leader>cra', 
+--   '<cmd>lua require(\'telescope.builtin\').lsp_range_code_actions()<CR>', 
+--   {noremap = true})
 bind('n', '<leader>gad', 
   '<cmd>lua require(\'telescope.builtin\').diagnostics()<CR>', {noremap = true})
   bind('n', '<leader>gi', 

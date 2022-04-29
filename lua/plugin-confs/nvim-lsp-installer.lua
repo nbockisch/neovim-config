@@ -74,6 +74,10 @@ local on_attach = function(client, bufnr)
 
   buf_bind(bufnr, 'n', '<leader>cf', '<cmd>lua vim.lsp.buf.formatting()<CR>', opts)
 
+  buf_bind(bufnr, 'n', '<leader>ca', '<cmd>lua vim.lsp.buf.code_action()<CR>', opts)
+
+  buf_bind(bufnr, 'n', '<leader>cra', '<cmd>lua vim.lsp.buf.range_code_action()<CR>', opts)
+
   buf_bind(bufnr, 'n', 'gld', '<cmd>lua vim.diagnostic.open_float()<CR>', 
     {noremap = true}) -- Open a window with diagnostics
 
