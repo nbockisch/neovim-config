@@ -7,7 +7,7 @@ vim.opt.undodir = os.getenv("HOME") .. '/.config/nvim/undodir' -- undo files her
 vim.opt.autoindent = true -- autoindent from previous line
 vim.opt.expandtab = true -- use spaces instead of tabs
 vim.opt.shiftwidth = 0 -- make >, and < always use tabstop value
-vim.opt.tabstop = 2 -- number of spaces a <tab> counts for
+vim.opt.tabstop = 4 -- number of spaces a <tab> counts for
 
 -- Editor appearance settings
 vim.opt.relativenumber = true -- set line numbers as relative to cursor
@@ -20,6 +20,7 @@ vim.opt.list = true -- show trailing spaces and tabs
 vim.opt.listchars = "tab: ,trail:." -- chars to show trailing spaces/tabs
 vim.opt.splitright = true -- put vertical splits to the right
 vim.opt.colorcolumn = "80" -- show line at 80 cols to not exceed that
+vim.opt.laststatus = 3 -- Global status line
 
 -- Colorscheme
 vim.opt.termguicolors = true

@@ -10,6 +10,12 @@ bind('n', '<A-t>', ':tabnew<CR>', {noremap = true})
 bind('n', '<A-h>', ':tabmove -<CR>', {noremap = true})
 bind('n', '<A-l>', ':tabmove +<CR>', {noremap = true})
 
+-- Split bindings
+bind('n', '<C-h>', ':wincmd h<CR>', {noremap = true, silent = true})
+bind('n', '<C-j>', ':wincmd j<CR>', {noremap = true, silent = true})
+bind('n', '<C-k>', ':wincmd k<CR>', {noremap = true, silent = true})
+bind('n', '<C-l>', ':wincmd l<CR>', {noremap = true, silent = true})
+
 -- Split resizing
 bind('n', '<Up>', ':resize +2<CR>', {noremap = true})
 bind('n', '<Down>', ':resize -2<CR>', {noremap = true})

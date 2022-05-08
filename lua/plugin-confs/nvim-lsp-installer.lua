@@ -57,7 +57,7 @@ local on_attach = function(client, bufnr)
 
   buf_bind(bufnr, 'n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
 
-  buf_bind(bufnr, 'n', '<C-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', 
+  buf_bind(bufnr, 'n', '<S-k>', '<cmd>lua vim.lsp.buf.signature_help()<CR>', 
     opts)
 
   buf_bind(bufnr, 'n', '<leader>wa', 
