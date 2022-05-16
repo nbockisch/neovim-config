@@ -5,6 +5,7 @@ end
 
 -- Add servers here to be installed
 local servers = {
+  'angularls',
   'ansiblels',
   'bashls',
   'clangd',
