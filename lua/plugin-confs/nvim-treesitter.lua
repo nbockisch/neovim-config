@@ -13,6 +13,7 @@ treesitter_configs.setup {
     'css',
     'go',
     'html',
+    'jsonc',
     'lua',
     'python',
     'rust',
