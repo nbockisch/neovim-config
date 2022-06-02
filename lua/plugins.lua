@@ -51,6 +51,9 @@ local PKGS = {
 
   -- Colorschemes
   'sainnhe/everforest';
+
+  -- Notes
+  'vimwiki/vimwiki';
 }
 
 -- Make sure paq is on system
