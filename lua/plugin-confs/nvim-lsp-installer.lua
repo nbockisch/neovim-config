@@ -12,6 +12,7 @@ local servers = {
   'cssls',
   'gopls',
   'html',
+  'jdtls',
   'pyright',
   'rust_analyzer',
   'sumneko_lua',

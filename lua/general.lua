@@ -7,7 +7,7 @@ vim.opt.undodir = os.getenv("HOME") .. '/.config/nvim/undodir' -- undo files her
 vim.opt.autoindent = true -- autoindent from previous line
 vim.opt.expandtab = true -- use spaces instead of tabs
 vim.opt.shiftwidth = 0 -- make >, and < always use tabstop value
-vim.opt.tabstop = 2 -- number of spaces a <tab> counts for
+vim.opt.tabstop = 4 -- number of spaces a <tab> counts for
 
 -- Editor appearance settings
 vim.opt.relativenumber = true -- set line numbers as relative to cursor
