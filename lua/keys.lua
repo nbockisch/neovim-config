@@ -4,11 +4,11 @@ local bind = vim.api.nvim_set_keymap -- save some typing
 vim.g.mapleader = ' '
 
 -- Tab bindings
-bind('n', '<Tab>', 'gt', {noremap = true})
-bind('n', '<S-Tab>', 'gT', {noremap = true})
-bind('n', '<A-t>', ':tabnew<CR>', {noremap = true})
-bind('n', '<A-h>', ':tabmove -<CR>', {noremap = true})
-bind('n', '<A-l>', ':tabmove +<CR>', {noremap = true})
+-- bind('n', '<Tab>', 'gt', {noremap = true})
+-- bind('n', '<S-Tab>', 'gT', {noremap = true})
+-- bind('n', '<A-t>', ':tabnew<CR>', {noremap = true})
+-- bind('n', '<A-h>', ':tabmove -<CR>', {noremap = true})
+-- bind('n', '<A-l>', ':tabmove +<CR>', {noremap = true})
 
 -- Split bindings
 bind('n', '<C-h>', ':wincmd h<CR>', {noremap = true, silent = true})

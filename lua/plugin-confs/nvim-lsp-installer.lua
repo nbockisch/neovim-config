@@ -17,6 +17,7 @@ local servers = {
   'rust_analyzer',
   'sumneko_lua',
   'tsserver',
+  'lemminx',
 }
 
 -- Bootstrap language servers
@@ -55,7 +56,9 @@ local on_attach = function(client, bufnr)
   vim.api.nvim_buf_set_option(bufnr, 'omnifunc', 'v:lua.vim.lsp.omnifunc')
 
   -- Mappings.
-  buf_bind(bufnr, 'n', 'gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
+  buf_bind(bufnr, 'n', '<leader>gD', '<cmd>lua vim.lsp.buf.declaration()<CR>', opts)
+
+  buf_bind(bufnr, 'n', '<leader>gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
 
   buf_bind(bufnr, 'n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
 
