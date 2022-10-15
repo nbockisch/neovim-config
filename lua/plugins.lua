@@ -32,6 +32,7 @@ local PKGS = {
 
   -- Highlighting
   {'nvim-treesitter/nvim-treesitter', run = TSUpdate};
+  'ap/vim-css-color'; -- highlight RGB colors
 
   -- Terminal
   'akinsho/toggleterm.nvim';
